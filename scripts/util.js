@@ -1,6 +1,4 @@
 define(function(require) {
-  // var myteam = require("./team");
-
   var retriveData = function(url) {
     return new Promise(function(resolve, reject) {
       var request = new XMLHttpRequest();
